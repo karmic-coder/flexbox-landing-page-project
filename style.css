@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.header-container{
+    display:flex;
+    flex-direction:column;
+    background-color: rgb(14, 14, 57);
+}
+.bg-container-white{
+    background-color:transparent;
+}
+.bg-container-rq{
+    background-color:rgb(167, 167, 167);
+}
+.hero-container{
+    background-color: rgb(14, 14, 57);
+}
+
+.header{
+    color:white;
+    margin:0 100px;
+    justify-content:space-between;
+    align-items:center;
+    display:flex;
+    flex:1 1 auto;
+}
+
+.hero{
+    color:white;
+    padding:60px 0;
+    margin:0 100px;
+    justify-items:space-between;
+    align-items:flex-start;
+    display:flex;
+    flex-flow:column wrap;
+    flex:1 1 auto;
+}
+.hero-col{
+    width:300px;
+    color:white;
+    /* padding:60px 0; */
+    /* margin:0 100px; */
+    /* justify-content:space-between; */
+    align-items:flex-start;
+    display:flex;
+    flex-flow:column wrap;
+    flex:1 1 auto;
+}
+.hero.row{
+    display:flex;
+    flex-flow:row wrap;
+}
+.hero-row img{
+    width:325px;
+    height:150px;
+}
+
+h1{
+    display:block;
+    text-align: center;
+    width:900px;
+    margin:0 auto;
+}
+.random-info{
+    padding:60px 0;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
+    margin:0 100px;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    flex-direction:row wrap;
+    flex:1 1 auto;
+}
+
+.random-info .thumbnails{
+    display:flex;
+    flex-direction:column;
+}
+
+.random-info img{
+    height:100px;
+    width:100px;
+    border-radius:10px;
+    border:2px solid blue;
+}
+
+.inspiring-quote{
+    color:rgb(24, 24, 24);
+    padding:60px 0;
+    width:300px;
+    /* margin:0 100px; */
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    flex:1 1 auto;
+}
+.call-to-action{
+    color:lightblue;
+    background-color: white;
+    margin:0 100px;
+    justify-content:space-between;
+    align-items:center;
+    display:flex;
+    flex:1 1 auto;
+}
+.footer{
+    color:white;
+    background-color: rgb(14, 14, 57);
+    margin:0 100px;
+    justify-content:space-between;
+    align-items:center;
+    display:flex;
+    flex:1 1 auto;
+}
+
+a{
+    color:white;
+}
