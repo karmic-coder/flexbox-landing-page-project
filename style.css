@@ -34,7 +34,7 @@ span.logo{
     display:flex;
     background-color: #1f2937;
     flex-direction:row;
-    justify-content: flex-start;
+    justify-content: center;
     /* align-items:flex-start; */
     /* justify-content: space-around; */
     column-gap: 20px;
@@ -76,7 +76,7 @@ span.logo{
     display:flex;
     background-color: #1f2937;
     flex-direction:row;
-    justify-content: space-around;
+    justify-content: right;
     column-gap: 20px;
     padding: 0;
     flex:1 1 auto;
